@@ -1945,6 +1945,8 @@
 		.image img {
 			border-radius: 3px;
 			display: block;
+			min-height: 350px;
+			max-width: 200px;
 		}
 
 		.image.left {
@@ -2500,7 +2502,7 @@
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			border-radius: 0;
+			border-radius: 1;
 			width: 40%;
 		}
 
@@ -2519,20 +2521,8 @@
 			width: 60%;
 		}
 
-		.spotlight:nth-child(2n) {
-			-moz-flex-direction: row-reverse;
-			-webkit-flex-direction: row-reverse;
-			-ms-flex-direction: row-reverse;
-			flex-direction: row-reverse;
-		}
+	
 
-		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
-		}
-
-		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
-		}
 
 		.spotlight:nth-child(3) {
 			background-color: rgba(0, 0, 0, 0.225);
