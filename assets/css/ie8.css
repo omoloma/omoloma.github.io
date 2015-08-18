@@ -25,7 +25,7 @@
 	input[type="email"],
 	select,
 	textarea {
-		border: solid 2px #dfdfdf;
+		border: solid 1px #dfdfdf;
 	}
 
 /* Button */
@@ -35,7 +35,7 @@
 	input[type="button"],
 	button,
 	.button {
-		border: solid 1px #dfdfdf;
+		border: solid 2px #dfdfdf;
 	}
 
 		input[type="submit"].special,
